@@ -1,5 +1,96 @@
 body {
-  background-color: brown;
-  color: white;
+  color: black;
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+.logo-att {
+  height: 55px;
+  margin: 0;
+}
+.ejecutiva {
+  font-size: 1.1em;
+  margin: 0;
+}
+.nombre {
+  font-size: 1.3em;
+  margin: 0;
+}
+.frase {
+  font-size: 1em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.servicios {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.contacto {
+  background-color: dodgerblue;
+  color: white;
+}
+.icons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.contact {
+  font-size: 1.4em;
+}
+.numero {
+  font-size: 1.8em;
+}
+.icon-watsapp {
+  height: 35px;
+}
+.icon-mail {
+  height: 35px;
+}
+.icon-qr {
+  height: 35px;
+}
+.ubicacion {
+  font-size: 1.8em;
+}
+
+.ubi {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-position {
+  height: 50px;
+}
+.store {
+  font-size: 1.6em;
+}
+
+.cuenta {
+  font-size: 1.2em;
+}
+
+.linea {
+  font-size: 1.2em;
+}
+
+.ayuda {
+  font-size: 1.2em;
 }
