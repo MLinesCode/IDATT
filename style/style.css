@@ -145,3 +145,19 @@ ul {
   font-weight: 300;
   margin: 1% 0 1% 2%;
 }
+
+footer {
+  height: 140px;
+  color: rgb(107, 107, 107);
+  background-color: black;
+}
+.legales-container {
+  height: inherit;
+}
+.legales {
+  text-align: center;
+  margin: 2% 2% 0 2%;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 0.9em;
+}
