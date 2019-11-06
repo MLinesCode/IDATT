@@ -8,25 +8,53 @@ p {
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 header {
   background-color: black;
   color: white;
 }
 .logo-att {
-  height: 55px;
-  margin: 0;
+  height: 54px;
+  margin: 1% 2% 1% 2%;
+}
+
+.hero {
+  color: black;
 }
 .ejecutiva {
-  font-size: 1.1em;
-  margin: 0;
+  font-size: 1.4em;
+  margin: 2% 5% 1% 2%;
+  font-weight: 300;
 }
 .nombre {
-  font-size: 1.3em;
-  margin: 0;
+  font-size: 1.7em;
+  margin: 0 0 1.5% 2%;
+  font-weight: 400;
 }
 .frase {
-  font-size: 1em;
-  margin: 0;
+  font-size: 1.1em;
+  margin: 0 0 5% 2%;
+  font-weight: 300;
+}
+
+.circle {
+width: 110px;
+height: 110px;
+border-radius: 50%;
+overflow: hidden;
+margin: -131px 0 3% 260px;
+/* border: 1px solid red; */
+}
+.ejecutivo-container {
+  height: 100%;
+  position: relative;
+}
+.ejecutivo {
+  height: 135%;
 }
 
 h2 {
@@ -34,47 +62,63 @@ h2 {
   font-weight: 600;
   margin: 0;
   font-family: 'Oswald', sans-serif;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
 }
 
 .servicios {
-  margin: 0;
+  margin: 4%;
 }
 ul {
-  margin: 0;
+  margin: 1%;
   font-size: 1.8em;
+  font-weight: 300;
 }
 
 .contacto {
   background-color: dodgerblue;
   color: white;
+  height: 230px;
 }
 .icons {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 .contact {
-  font-size: 1.4em;
+  font-size: 1.8em;
+  margin: 2% 0 0 2%;
+  font-weight: 400;
 }
 .numero {
-  font-size: 1.8em;
+  font-size: 2em;
+  margin: 0 1% 0 -2%;
+  font-weight: 300;
 }
 .icon-watsapp {
-  height: 35px;
+  height: 33px;
 }
 .icon-mail {
-  height: 35px;
+  height: 33px;
 }
 .icon-qr {
-  height: 35px;
+  height: 33px;
 }
+
 .ubicacion {
   font-size: 1.8em;
+  text-align: center;
+  margin: 2% 0 2% 0;
+  font-weight: 400;
 }
 
 .ubi {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 300;
 }
 .icon-position {
   height: 51px;
@@ -84,13 +128,20 @@ ul {
 }
 
 .cuenta {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  text-align: left;
+  margin: 2% 0 1% 2%;
+  font-weight: 400;
 }
 
 .linea {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 1% 0 1% 2%;
 }
 
 .ayuda {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 1% 0 1% 2%;
 }
